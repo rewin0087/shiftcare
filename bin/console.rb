@@ -6,8 +6,6 @@ end
 
 options = {}
 OptionParser.new do |opts|
-  opts.banner = "Usage: example.rb [options]"
-
   opts.on('-f', '--filter FIELD_NAME', 'Filter (field:value)') { |v| options[:filter] = v }
   opts.on('-n', '--name NAME', 'Name') { |v| options[:name] = v }
 
