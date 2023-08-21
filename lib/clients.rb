@@ -8,7 +8,7 @@ class Clients
   #  but we can pass a different file path with the same content structure.
   # We also support custom filter from params
   #  just pass { filter: 'field:value' }
-	def initialize(source_path: DEFAULT_SOURCE_PATH)
+  def initialize(source_path: DEFAULT_SOURCE_PATH)
     @source_path = source_path
   end
 
